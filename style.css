@@ -131,16 +131,19 @@ header a:hover{
 .win-green{
  border: 4px solid #4dcc7d;
  box-shadow: 0 0 50px green;
+ background: black;
 }
 
 .lose-red{
  border: 4px solid #fc121b;
  box-shadow: 0 0 50px #d01115;
+ background: black;
 }
 
 .tie-grey{
  border: 4px solid grey;
  box-shadow: 0 0 50px #464647;
+ background: black;
 }
 
 .winner, .loser{

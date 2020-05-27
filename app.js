@@ -65,6 +65,8 @@ function win(user_choice, comp_choice) {
  setTimeout(function() {document.getElementById(user_choice).classList.remove("win-green")}, 1500);
  document.getElementById("winner").style.display = "block";
  setTimeout(() => {document.getElementById("winner").style.display = "none"}, 1500);
+ document.getElementById('c'+comp_choice).style.background = "black";
+ setTimeout(() => document.getElementById('c'+comp_choice).style.background = "white", 1500);
  document.getElementById('c'+comp_choice).classList.add("lose-red");
  setTimeout(() => document.getElementById('c'+comp_choice).classList.remove("lose-red"), 1500);
 }
@@ -79,6 +81,8 @@ function lose(user_choice, comp_choice) {
  setTimeout(() => document.getElementById(user_choice).classList.remove("lose-red"), 1500);
  document.getElementById("loser").style.display = "block";
  setTimeout(() => {document.getElementById("loser").style.display = "none"}, 1500);
+ document.getElementById('c'+comp_choice).style.background = "black";
+ setTimeout(() => document.getElementById('c'+comp_choice).style.background = "white", 1500);
  document.getElementById('c'+comp_choice).classList.add("win-green");
  setTimeout(() => document.getElementById('c'+comp_choice).classList.remove("win-green"), 1500);
 }
@@ -91,6 +95,8 @@ function tie(user_choice, comp_choice) {
  setTimeout(function() {document.getElementById(user_choice).classList.remove("tie-grey")}, 1500);
  document.getElementById("tie").style.display = "block";
  setTimeout(() => {document.getElementById("tie").style.display = "none"}, 1500);
+ document.getElementById('c'+comp_choice).style.background = "black";
+ setTimeout(() => document.getElementById('c'+comp_choice).style.background = "white", 1500);
  document.getElementById('c'+comp_choice).classList.add("tie-grey");
  setTimeout(() => document.getElementById('c'+comp_choice).classList.remove("tie-grey"), 1500);
 }
