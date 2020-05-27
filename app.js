@@ -13,7 +13,7 @@ function main() {
  rock_div.addEventListener('click', () => game("r"));
  paper_div.addEventListener('click', () => game("p"));
  scissors_div.addEventListener('click', () => game("s"));
- reset_div.addEventListener('click', () => clear());
+ reset_div.addEventListener('click', () => clear()); //when to reset
 }
 
 function clear() {
