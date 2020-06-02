@@ -1,3 +1,3 @@
 WIP..
 
-check@ https://daks001.github.io/rps.html
+check@ https://daks001.github.io/static/rps/rps.html
